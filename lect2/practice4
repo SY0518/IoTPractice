@@ -21,6 +21,8 @@ void setup() {
 
 void loop() {
   int pos;
+  int i;
+
   if(Serial.available()){
     delay(100);
     while(Serial.available()>0){
